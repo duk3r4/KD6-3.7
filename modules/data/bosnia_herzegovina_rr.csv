@@ -1,0 +1,96 @@
+RR,Status,Political region
+00,Naturalized citizen which had no republican citizenship,
+01,Foreign citizen without citizenship of former Yugoslavia or succeeding countries,Bosnia and Herzegovina
+02,Foreign citizen without citizenship of former Yugoslavia or succeeding countries,Montenegro
+03,Foreign citizen without citizenship of former Yugoslavia or succeeding countries,Croatia
+04,Foreign citizen without citizenship of former Yugoslavia or succeeding countries,Macedonia
+05,Foreign citizen without citizenship of former Yugoslavia or succeeding countries,Slovenia
+06,Foreign citizen without citizenship of former Yugoslavia or succeeding countries,Central Serbia
+07,Foreign citizen without citizenship of former Yugoslavia or succeeding countries,Vojvodina
+08,Foreign citizen without citizenship of former Yugoslavia or succeeding countries,Kosovo
+09,Naturalized citizen which had no republican citizenship,
+10,Bosnia and Herzegovina citizen,"Bosnia and Herzegovina, Banja Luka"
+11,Bosnia and Herzegovina citizen,"Bosnia and Herzegovina, Bihać"
+12,Bosnia and Herzegovina citizen,"Bosnia and Herzegovina, Doboj"
+13,Bosnia and Herzegovina citizen,"Bosnia and Herzegovina, Goražde"
+14,Bosnia and Herzegovina citizen,"Bosnia and Herzegovina, Livno"
+15,Bosnia and Herzegovina citizen,"Bosnia and Herzegovina, Mostar"
+16,Bosnia and Herzegovina citizen,"Bosnia and Herzegovina, Prijedor"
+17,Bosnia and Herzegovina citizen,"Bosnia and Herzegovina, Sarajevo"
+18,Bosnia and Herzegovina citizen,"Bosnia and Herzegovina, Tuzla"
+19,Bosnia and Herzegovina citizen,"Bosnia and Herzegovina, Zenica"
+20,Montenegro citizen,Not in use
+21,Montenegro citizen,"Montenegro, Podgorica, Danilovgrad, Kolašin"
+22,Montenegro citizen,"Montenegro, Bar, Ulcinj"
+23,Montenegro citizen,"Montenegro, Budva, Kotor, Tivat"
+24,Montenegro citizen,"Montenegro, Herceg Novi"
+25,Montenegro citizen,"Montenegro, Cetinje"
+26,Montenegro citizen,"Montenegro, Nikšić, Plužine, Šavnik"
+27,Montenegro citizen,"Montenegro, Berane, Rožaje, Plav, Andrijevica"
+28,Montenegro citizen,"Montenegro, Bijelo Polje, Mojkovac"
+29,Montenegro citizen,"Montenegro, Pljevlja, Žabljak"
+30,Croatia citizen,"Croatia, Osijek, Slavonia region"
+31,Croatia citizen,"Croatia, Bjelovar, Virovitica, Koprivnica, Pakrac, Podravina region"
+32,Croatia citizen,"Croatia, Varaždin, Međimurje region"
+33,Croatia citizen,"Croatia, Zagreb"
+34,Croatia citizen,"Croatia, Karlovac, Kordun region"
+35,Croatia citizen,"Croatia, Gospić, Lika region"
+36,Croatia citizen,"Croatia, Rijeka, Pula, Gorski kotar, Istria and Croatian Littoral regions"
+37,Croatia citizen,"Croatia, Sisak, Banovina region"
+38,Croatia citizen,"Croatia, Split, Zadar, Šibenik, Dubrovnik, Dalmatia region"
+39,Croatia citizen,"Croatia, Hrvatsko Zagorje and mixed"
+41,Macedonia citizen,"Macedonia, Bitola"
+42,Macedonia citizen,"Macedonia, Kumanovo"
+43,Macedonia citizen,"Macedonia, Ohrid"
+44,Macedonia citizen,"Macedonia, Prilep"
+45,Macedonia citizen,"Macedonia, Skopje"
+46,Macedonia citizen,"Macedonia, Strumica"
+47,Macedonia citizen,"Macedonia, Tetovo"
+48,Macedonia citizen,"Macedonia, Veles"
+49,Macedonia citizen,"Macedonia, Štip"
+50,Slovenia citizen,Slovenia
+51,Slovenia citizen,Slovenia
+52,Slovenia citizen,Slovenia
+53,Slovenia citizen,Slovenia
+54,Slovenia citizen,Slovenia
+55,Slovenia citizen,Slovenia
+56,Slovenia citizen,Slovenia
+57,Slovenia citizen,Slovenia
+58,Slovenia citizen,Slovenia
+59,Slovenia citizen,Slovenia
+60,Temporary residence,
+61,Temporary residence,
+62,Temporary residence,
+63,Temporary residence,
+64,Temporary residence,
+65,Temporary residence,
+66,Temporary residence,
+67,Temporary residence,
+68,Temporary residence,
+69,Temporary residence,
+70,Central Serbia citizen registered abroad at a Serbian diplomatic/consular post,Serbia
+71,Central Serbia citizen,"Central Serbia, Belgrade region (City of Belgrade)"
+72,Central Serbia citizen,"Central Serbia, Šumadija and Pomoravlje regions (Šumadija District and Pomoravlje District)"
+73,Central Serbia citizen,"Central Serbia, Niš region (Nišava District, Pirot District and Toplica District)"
+74,Central Serbia citizen,"Central Serbia, Southern Morava region (Jablanica District and Pčinja District)"
+75,Central Serbia citizen,"Central Serbia, Zaječar region (Zaječar District and Bor District)"
+76,Central Serbia citizen,"Central Serbia, Podunavlje region (Podunavlje District and Braničevo District)"
+77,Central Serbia citizen,"Central Serbia, Podrinje and Kolubara regions (Mačva District and Kolubara District)"
+78,Central Serbia citizen,"Central Serbia, Kraljevo region (Raška District, Moravica District and Rasina District)"
+79,Central Serbia citizen,"Central Serbia, Užice region (Zlatibor District)"
+80,Vojvodina citizen,"Vojvodina, Novi Sad region (South Bačka District)"
+81,Vojvodina citizen,"Vojvodina, Sombor region (West Bačka District)"
+82,Vojvodina citizen,"Vojvodina, Subotica region (North Bačka District)"
+84,Vojvodina citizen,"Vojvodina, Kikinda region (North Banat District)"
+85,Vojvodina citizen,"Vojvodina, Zrenjanin region (Central Banat District)"
+86,Vojvodina citizen,"Vojvodina, Pančevo region (South Banat District)"
+87,Vojvodina citizen,"Vojvodina, Vršac region (South Banat District)"
+88,Vojvodina citizen,"Vojvodina, Ruma region (part of Syrmia District)"
+89,Vojvodina citizen,"Vojvodina, Sremska Mitrovica region (part of Syrmia District)"
+91,Kosovo citizen,"Kosovo, Priština region (Kosovo District)"
+92,Kosovo citizen,"Kosovo, Kosovska Mitrovica region (Kosovska Mitrovica District)"
+93,Kosovo citizen,"Kosovo, Peć region (part of Peć District)"
+94,Kosovo citizen,"Kosovo, Đakovica region (part of Peć District)"
+95,Kosovo citizen,"Kosovo, Prizren region (Prizren District)"
+96,Kosovo citizen,"Kosovo, Gnjilane region (Kosovo-Pomoravlje District)"
+TEST,TEST,TEST
