@@ -34,7 +34,7 @@ The list of countries and features will be added over time!
 ### Cloning a repository
 
 ```bash
-# or clone and install manually
+# clone and use
 git clone https://github.com/duk3r4/KD6-3.7 && cd KD6-3.7
 pip3 install -r requirements.txt
 
