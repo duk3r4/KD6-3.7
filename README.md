@@ -72,12 +72,12 @@ Options:
 ```bash
 python kd6-3.7.py bel --icn 0106100013  
 
-Here's what I got from that ID number:
+Here is what I got from that ID number:
 The card owner is a EU/EEA/Swiss citizen
 
 python kd6-3.7.py est --nin 48703230245
 
-Here's what I got from that ID number:
+Here is what I got from that ID number:
 Day of birth:  23 
 Month of birth:  March
 Year of birth:  1987
@@ -88,7 +88,7 @@ Personal mail for contacting government agencies: 48703230245@eesti.ee
 
 python kd6-3.7.py fra --nin 187112b361052
 
-Here's what I got from that ID number:
+Here is what I got from that ID number:
 Month of birth:  November 
 Year of birth:  1987
 Sex:  Male
