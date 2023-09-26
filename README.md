@@ -6,15 +6,12 @@ identified by their ID number </i>
 
 ## About
 
-Every person is given an identification number at birth, when they reach a certain age or status, which allows them to 
-be distinguished from other people. As it turned out, in many countries different identification numbers are generated 
-by state authorities not by chance, but according to a certain algorithm. 
+Each of us has at least one identification number (ID) that allows governments to distinguish one person from another. 
+In many countries IDs are not generated randomly, but according to a certain algorithm.
 
-**KD6-3.7** knows these algorithms and is able to provide additional information about a person if you have his/her 
-identification number. This method can be useful in OSINT investigations when there is not much information about a 
-person.
+**KD6-3.7** is able to provide additional information about a person if you have his/her ID. This method can be useful in OSINT investigations when there is not much information about a person.
 
-At the moment you can see additional information about ID number holders from the following countries:
+Currently, it is possible to get additional information about ID holders from the following countries:
 
 - Albania
 - Belgium
@@ -27,7 +24,7 @@ At the moment you can see additional information about ID number holders from th
 - France
 - Slovakia
 
-The list of countries and features will be added over time!
+The list of countries and functionality will be expanded!
 
 ## Installation
 
