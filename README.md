@@ -23,7 +23,7 @@ Currently, it is possible to get additional information about ID holders from th
 | Denmark                | Det Centrale Personregister (CPR-nummer)                                                                   |             
 | Estonia                | Isikukood (IK)                                                                                             |           
 | Finland                | Henkilötunnus (HETU)                                                                                       |         
-| France                 | Numéro d'inscription au répertoire des personnes physiques (NIRP/NIR))                                     |        
+| France                 | Numéro d'inscription au répertoire des personnes physiques (NIRP/NIR)                                      |        
 | Slovakia               | Birth Number/Rodné Číslo (RČ)                                                                              |    
 
 The list of countries and functionality will be expanded!
