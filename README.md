@@ -85,7 +85,7 @@ Sequence number of person with the same date of birth:  24
 Checksum symbol:  5
 Personal mail for contacting government agencies: 48703230245@eesti.ee
 
-python kd6-3.7.py fra --nin 187112b361052
+python kd6-3.7.py fra --ssn 187112b361052
 
 Here is what I got from that ID number:
 Month of birth:  November 
