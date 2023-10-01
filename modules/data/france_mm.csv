@@ -11,5 +11,16 @@ MM,Month
 10,October
 11,November
 12,December
-20,Unknown
+31,January (the person was registered on the basis of an incomplete civil status document)
+32,February (the person was registered on the basis of an incomplete civil status document)
+33,March (the person was registered on the basis of an incomplete civil status document)
+34,April (the person was registered on the basis of an incomplete civil status document)
+35,May (the person was registered on the basis of an incomplete civil status document)
+36,June (the person was registered on the basis of an incomplete civil status document)
+37,July (the person was registered on the basis of an incomplete civil status document)
+38,August (the person was registered on the basis of an incomplete civil status document)
+39,September (the person was registered on the basis of an incomplete civil status document)
+40,October (the person was registered on the basis of an incomplete civil status document)
+41,November (the person was registered on the basis of an incomplete civil status document)
+42,December (the person was registered on the basis of an incomplete civil status document)
 TEST,TEST

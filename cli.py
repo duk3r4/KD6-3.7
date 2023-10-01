@@ -66,9 +66,10 @@ def fin(nin):
 
 
 @click.command()
-@click.option('--nin', type=str, help='National Identification Number (INSEE Code (NIR)); 13 alphanumerical digits')
-def fra(nin):
-    france.fra_alg_nin(nin)
+@click.option('--ssn', type=str, help='Social Security Number (Numéro d\'inscription au répertoire des personnes '
+                                      'physiques (NIRP/NIR)); 13 alphanumerical digits')
+def fra(ssn):
+    france.fra_alg_nin(ssn)
 
 
 @click.command()

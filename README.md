@@ -13,16 +13,18 @@ In many countries IDs are not generated randomly, but according to a certain alg
 
 Currently, it is possible to get additional information about ID holders from the following countries:
 
-- Albania
-- Belgium
-- Bosnia and Herzegovina
-- Bulgaria
-- Czech Republic
-- Denmark
-- Estonia
-- Finland
-- France
-- Slovakia
+| Country                | Option                                                                                                     |
+|------------------------|------------------------------------------------------------------------------------------------------------|
+| Albania                | Numri i Identitetit (NID)                                                                                  | 
+| Belgium                | National Register Number, Identity Card Number                                                             | 
+| Bosnia and Herzegovina | Unique Master Citizen Number (UMCN)/Jedinstveni matični broj (JMB)/Jedinstveni matični broj građana (JMBG) | 
+| Bulgaria               | Единен граждански номер (ЕГН)/Edinen grazhdanski nomer (EGN)                                               | 
+| Czech Republic         | Birth Number/Rodné Číslo (RČ)                                                                              |        
+| Denmark                | Det Centrale Personregister (CPR-nummer)                                                                   |             
+| Estonia                | Isikukood (IK)                                                                                             |           
+| Finland                | Henkilötunnus (HETU)                                                                                       |         
+| France                 | Numéro d'inscription au répertoire des personnes physiques (NIRP/NIR))                                     |        
+| Slovakia               | Birth Number/Rodné Číslo (RČ)                                                                              |    
 
 The list of countries and functionality will be expanded!
 
