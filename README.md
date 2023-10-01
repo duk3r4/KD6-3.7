@@ -13,18 +13,18 @@ In many countries IDs are not generated randomly, but according to a certain alg
 
 Currently, it is possible to get additional information about ID holders from the following countries:
 
-| Country                | Option                                                                                                     |
-|------------------------|------------------------------------------------------------------------------------------------------------|
-| Albania                | Numri i Identitetit (NID)                                                                                  | 
-| Belgium                | National Register Number, Identity Card Number                                                             | 
-| Bosnia and Herzegovina | Unique Master Citizen Number (UMCN)/Jedinstveni matični broj (JMB)/Jedinstveni matični broj građana (JMBG) | 
-| Bulgaria               | Единен граждански номер (ЕГН)/Edinen grazhdanski nomer (EGN)                                               | 
-| Czech Republic         | Birth Number/Rodné Číslo (RČ)                                                                              |        
-| Denmark                | Det Centrale Personregister (CPR-nummer)                                                                   |             
-| Estonia                | Isikukood (IK)                                                                                             |           
-| Finland                | Henkilötunnus (HETU)                                                                                       |         
-| France                 | Numéro d'inscription au répertoire des personnes physiques (NIRP/NIR)                                      |        
-| Slovakia               | Birth Number/Rodné Číslo (RČ)                                                                              |    
+| Country                | Types of ID                                          | Options                                                                                                    |
+|------------------------|------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| Albania                | National Identification Number                       | Numri i Identitetit (NID)                                                                                  | 
+| Belgium                | National Identification Number; Identity Card Number | National Register Number; Identity Card Number                                                             | 
+| Bosnia and Herzegovina | National Identification Number                       | Unique Master Citizen Number (UMCN)/Jedinstveni matični broj (JMB)/Jedinstveni matični broj građana (JMBG) | 
+| Bulgaria               | National Identification Number                       | Единен граждански номер (ЕГН)/Edinen grazhdanski nomer (EGN)                                               | 
+| Czech Republic         | National Identification Number                       | Birth Number/Rodné Číslo (RČ)                                                                              |        
+| Denmark                | National Identification Number                       | Det Centrale Personregister (CPR-nummer)                                                                   |             
+| Estonia                | National Identification Number                       | Isikukood (IK)                                                                                             |           
+| Finland                | National Identification Number                       | Henkilötunnus (HETU)                                                                                       |         
+| France                 | Social Security Number                               | Numéro d'inscription au répertoire des personnes physiques (NIRP/NIR)                                      |        
+| Slovakia               | National Identification Number                       | Birth Number/Rodné Číslo (RČ)                                                                              |    
 
 The list of countries and functionality will be expanded!
 
