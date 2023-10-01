@@ -13,7 +13,7 @@ In many countries IDs are not generated randomly, but according to a certain alg
 
 Currently, it is possible to get additional information about ID holders from the following countries:
 
-| Country                | Types of ID                                          | Options      | Option names                                                                                               |
+| Country                | Types of ID                                          | Options      | Information                                                                                                |
 |------------------------|------------------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------|
 | Albania                | National Identification Number                       | --nin        | Numri i Identitetit (NID)                                                                                  | 
 | Belgium                | National Identification Number; Identity Card Number | --nin; --icn | National Register Number; Identity Card Number                                                             | 
