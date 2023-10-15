@@ -36,8 +36,11 @@ The list of countries and functionality will be expanded!
 # clone and use
 git clone https://github.com/duk3r4/KD6-3.7 && cd KD6-3.7
 pip3 install -r requirements.txt
+```
 
-# usage
+## Usage
+
+```bash
 python kd6-3.7.py --help              
 Usage: kd6-3.7.py [OPTIONS] COMMAND [ARGS]...
 
@@ -66,7 +69,7 @@ Options:
   --help      Show this message and exit.
 ```
 
-## Usage examples
+### Usage examples
 
 ```bash
 python kd6-3.7.py bel --icn 0106100013  
