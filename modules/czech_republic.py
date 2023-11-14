@@ -10,13 +10,11 @@ def cze_alg_nin(nin):
     length = len(nin)
     if length == 10:
         c = nin[9]
-    elif length == 9:
-        pass
-    else:
+    elif length != 9:
         print('Wrong length of the ID number. Please, try again')
         return()
     # checking the YY parameter
-    yy = nin[0:2]
+    yy = nin[:2]
     if df_cze_yy['YY'].isin([yy]).any():
         bd_year = df_cze_yy.at[df_cze_yy.loc[df_cze_yy['YY'] == yy].index[0], 'YYYY']
     else:

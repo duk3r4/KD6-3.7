@@ -11,7 +11,7 @@ def fin_alg_nin(nin):
         print('Wrong length of the ID number. Please, try again')
         return()
     # checking the DD parameter
-    dd = nin[0:2]
+    dd = nin[:2]
     if df_finland_dd['DD'].isin([dd]).any():
         bd_day = df_finland_dd.at[df_finland_dd.loc[df_finland_dd['DD'] == dd].index[0], 'Day']
     else:
@@ -26,9 +26,7 @@ def fin_alg_nin(nin):
         return()
     # checking the YY parameter
     yy = nin[4:6]
-    if df_finland_yy['YY'].isin([yy]).any():
-        pass
-    else:
+    if not df_finland_yy['YY'].isin([yy]).any():
         print('The ID number is wrong. Please, try again')
         return()
     # checking the C parameter
@@ -47,10 +45,7 @@ def fin_alg_nin(nin):
         return()
     # checking the ZZZ parameter
     zzz = nin[7:10]
-    if int(zzz) % 2 == 0:
-        sex = 'Female'
-    else:
-        sex = 'Male'
+    sex = 'Female' if int(zzz) % 2 == 0 else 'Male'
     q = nin.upper()[10]
     print('\nHere\'s what I got from that ID number:\nDay of birth: ', bd_day, '\nMonth of birth: ',
           bd_month, '\nYear of birth: ', bd_year, '\nSex: ', sex,

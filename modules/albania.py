@@ -11,7 +11,7 @@ def alb_alg_nin(nin):
         print('Wrong length of the ID number. Please, try again')
         return()
     # checking the YY parameter
-    yy = nin.upper()[0:2]
+    yy = nin.upper()[:2]
     if df_albania_yy['YY'].isin([yy]).any():
         bd_year = df_albania_yy.at[df_albania_yy.loc[df_albania_yy['YY'] == yy].index[0], 'YYYY']
     else:

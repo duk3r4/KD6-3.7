@@ -11,7 +11,7 @@ def dnk_alg_nin(nin):
         print('Wrong length of the ID number. Please, try again')
         return ()
     # checking the DD parameter
-    dd = nin[0:2]
+    dd = nin[:2]
     if df_denmark_dd['DD'].isin([dd]).any():
         bd_day = df_denmark_dd.at[df_denmark_dd.loc[df_denmark_dd['DD'] == dd].index[0], 'Day']
     else:
@@ -44,10 +44,7 @@ def dnk_alg_nin(nin):
         return()
     # checking the SSSS parameter
     ssss = nin[9]
-    if int(ssss) % 2 == 0:
-        sex = 'Female'
-    else:
-        sex = 'Male'
+    sex = 'Female' if int(ssss) % 2 == 0 else 'Male'
     print('\nHere\'s what I got from that ID number:\nDay of birth: ', bd_day, '\nMonth of birth: ',
           bd_month, '\nYear of birth: ', bd_year, '\nSex: ', sex, '\n')
     return()

@@ -12,7 +12,7 @@ def bih_alg_nin(nin):
         print('Wrong length of the ID number. Please, try again')
         return()
     # checking the DD parameter
-    dd = nin[0:2]
+    dd = nin[:2]
     if df_bih_dd['DD'].isin([dd]).any():
         bd_day = df_bih_dd.at[df_bih_dd.loc[df_bih_dd['DD'] == dd].index[0], 'Day']
     else:
@@ -43,10 +43,7 @@ def bih_alg_nin(nin):
     # checking the BBB parameter
     bbb = nin[9:12]
     if bbb.isnumeric():
-        if 0 <= int(bbb) <= 499:
-            sex = 'Male'
-        else:
-            sex = 'Female'
+        sex = 'Male' if 0 <= int(bbb) <= 499 else 'Female'
     else:
         print('The ID number is wrong. Please, try again')
         return()
