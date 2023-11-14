@@ -11,7 +11,7 @@ def bel_alg_nin(nin):
         print('Wrong length of the ID number. Please, try again')
         return()
     # checking the YY parameter
-    yy = nin[0:2]
+    yy = nin[:2]
     if df_belgium_yy['YY'].isin([yy]).any():
         bd_year = df_belgium_yy.at[df_belgium_yy.loc[df_belgium_yy['YY'] == yy].index[0], 'YYYY']
     else:
@@ -34,10 +34,7 @@ def bel_alg_nin(nin):
     # checking the XXX parameter
     xxx = nin[6:9]
     if xxx.isnumeric():
-        if int(xxx) % 2 == 0:
-            sex = 'Female'
-        else:
-            sex = 'Male'
+        sex = 'Female' if int(xxx) % 2 == 0 else 'Male'
     else:
         print('The ID number is wrong. Please, try again')
         return()
@@ -50,13 +47,11 @@ def bel_alg_nin(nin):
 def bel_alg_icn(icn):
     if len(icn) == 12:
         print('\nHere\'s what I got from that ID number:\nThe card owner is a Belgium citizen\n')
-        return()
     elif len(icn) == 9:
         print('\nHere\'s what I got from that ID number:\nThe card owner is a third country citizen\n')
-        return()
     elif len(icn) == 10:
         print('\nHere\'s what I got from that ID number:\nThe card owner is a EU/EEA/Swiss citizen\n')
-        return()
     else:
         print('The ID number is wrong. Please, try again')
-        return()
+
+    return()

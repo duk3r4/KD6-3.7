@@ -19,7 +19,7 @@ def bgr_alg_nin(nin):
         print('The ID number is wrong. Please, try again')
         return()
     # checking the YY parameter
-    yy = nin[0:2]
+    yy = nin[:2]
     if df_bulgaria_yy['YY'].isin([yy]).any():
         if 1 <= int(mm) <= 12:
             bd_year = df_bulgaria_yy.at[
@@ -48,10 +48,7 @@ def bgr_alg_nin(nin):
         print('The ID number is wrong. Please, try again')
         return()
     s = nin[8:9]
-    if int(s) % 2 == 0:
-        sex = 'Male'
-    else:
-        sex = 'Female'
+    sex = 'Male' if int(s) % 2 == 0 else 'Female'
     c = nin[9]
     print('\nHere\'s what I got from that ID number:\nDay of birth: ', bd_day, '\nMonth of birth: ',
           bd_month, '\nYear of birth: ', bd_year, '\nSex: ', sex, '\nPlace of birth: ', reg,

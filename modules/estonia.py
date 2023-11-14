@@ -12,10 +12,7 @@ def est_alg_nin(nin):
         return()
     # checking the G parameter
     g = nin[0]
-    if int(g) % 2 == 0:
-        sex = 'Female'
-    else:
-        sex = 'Male'
+    sex = 'Female' if int(g) % 2 == 0 else 'Male'
     # checking the YY parameter
     yy = nin[1:3]
     if df_estonia_yy['YY'].isin([yy]).any():
